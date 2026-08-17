@@ -1,0 +1,23 @@
+{
+  "name": "saucedemo-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "headed": "playwright test --headed",
+    "debug": "playwright test --debug",
+    "ui": "playwright test --ui",
+    "report": "playwright show report",
+    "codegen": "playwright codegen",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0"
+  }
+}
